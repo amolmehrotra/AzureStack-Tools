@@ -133,7 +133,7 @@ Set-AzsRegistration -PrivilegedEndpointCredential $PrivilegedEndpointCredential 
 
 .EXAMPLE
 
-This example registers your AzureStack environment with Azure, enables syndication and usage and gives a specific name to the resource group
+This example registers your AzureStack environment with Azure, enables syndication and usage and gives a specific name to the resource group.
 
 Set-AzsRegistration -PrivilegedEndpointCredential $PrivilegedEndpointCredential -PrivilegedEndpoint "Azs-ERCS02" -ResourceGroupName "ContosoStackRegistrations"
 
